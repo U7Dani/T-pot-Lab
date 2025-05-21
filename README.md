@@ -1,6 +1,8 @@
 
 # 🛡️ T-Pot Honeypot Lab & Attack Analytics 🎯
 
+![image](https://github.com/user-attachments/assets/ae6226c1-4347-4f10-bb4a-e910cfa4a6a2)
+
 Laboratorio completo para el despliegue, integración, análisis y visualización de ciberataques en tiempo real usando **T-Pot Honeypot Platform** y **Elastic Stack**.
 
 ---
