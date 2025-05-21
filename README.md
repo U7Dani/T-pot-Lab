@@ -46,8 +46,8 @@ Incluye:
 ```
 [Internet] 🌐 → [VPS/Cloud] → [T-Pot] ↔ [Elastic Stack] → [Dashboards/Web]
 ```
+![image](https://github.com/user-attachments/assets/b28a1484-8085-466d-a6ca-0d411cf42009)
 
-> _Puedes incluir un diagrama visual aquí con la topología de red_
 
 ---
 
@@ -90,6 +90,7 @@ sudo ./install.sh
 - Dashboards principales:
     - 📊 Kibana: `/kibana`
     - 🕸️ Elasticvue, 🕵️ Spiderfoot, 🗺️ Attack Map...
+![image](https://github.com/user-attachments/assets/bea97994-74f3-44c2-90ce-dbf6269bf5df)
 
 ---
 
@@ -105,7 +106,11 @@ Incluye:
 - Estadísticas por puerto/protocolo  
 - Usuarios/contraseñas más atacados
 
-![Dashboard Principal](screenshots/Captura de pantalla 2025-05-21 181844.png)
+![image](https://github.com/user-attachments/assets/7a90d6f1-9252-4e54-9ac6-b7e410c99057)
+![image](https://github.com/user-attachments/assets/b9aae1ac-bb35-4ceb-a99d-641153031ca1)
+![image](https://github.com/user-attachments/assets/a31870c0-5829-4238-b133-8f5bfb48c55f)
+![Captura de pantalla 2025-05-21 182529](https://github.com/user-attachments/assets/d483097a-9935-4494-af68-487f4546e4ea)
+![Captura de pantalla 2025-05-21 182618](https://github.com/user-attachments/assets/ecd6f102-1430-4257-a7a0-746362c2d224)
 
 ---
 
@@ -117,7 +122,8 @@ Incluye:
 | 2025-05-21 14:07  | 34.95.113.255     | tu_ip      | Attempted Admin Privilege Gain       | SSH Brute-Force attempt detected               |
 | 2025-05-21 14:02  | 34.95.113.255     | tu_ip      | Network Trojan                       | ET MALWARE Win32/Banker Trojan Downloader      |
 
-![Detalle de Evento en Kibana](screenshots/Captura de pantalla 2025-05-21 182100.png)
+![Captura de pantalla 2025-05-21 181844](https://github.com/user-attachments/assets/bfdfbfee-414b-4292-9d2f-46cbd2dce052)
+![Captura de pantalla 2025-05-21 182100](https://github.com/user-attachments/assets/896b6bfb-0f63-43ad-9e29-2d01c60513f3)
 
 ---
 
@@ -128,26 +134,30 @@ Incluye:
 - Resultado: Clean  
 - ASN: Google Cloud  
 - País: EE.UU.  
-![VirusTotal](screenshots/Captura de pantalla 2025-05-21 182135.png)
+![Captura de pantalla 2025-05-21 182135](https://github.com/user-attachments/assets/56fbfd66-ef9d-4df5-9075-cf0fa511c349)
+
 
 #### 🟠 AbuseIPDB
 
 - 36 reportes, principalmente brute-force y port scan  
 - Confianza de abuso: 2%  
-![AbuseIPDB](screenshots/Captura de pantalla 2025-05-21 182220.png)
+![Captura de pantalla 2025-05-21 182253](https://github.com/user-attachments/assets/9322bfb1-4d33-4723-9d7b-c7f07c4a78b2)
+![Captura de pantalla 2025-05-21 182333](https://github.com/user-attachments/assets/1c4c6342-c961-4931-a840-73fe5d517d1d)
 
 #### 🔴 Shodan
 
 - Abierto en puertos 80/443  
 - Hostnames: telemetry.elastic.co, googleusercontent.com  
 - Cloud Provider: Google  
-![Shodan](screenshots/Captura de pantalla 2025-05-21 182253.png)
+
+![Captura de pantalla 2025-05-21 182357](https://github.com/user-attachments/assets/a093664e-5ffd-435e-8c7c-5581fe871f1b)
 
 #### 🔵 IPVoid
 
 - No listado en blacklists  
 - Ubicación: Kansas City, Missouri  
-![IPVoid](screenshots/Captura de pantalla 2025-05-21 182333.png)
+
+![Captura de pantalla 2025-05-21 182446](https://github.com/user-attachments/assets/5297e93d-5c4b-479e-a38e-66e64b3c1967)
 
 ---
 
@@ -202,14 +212,3 @@ Incluye:
 
 ---
 
-## 🖼️ Capturas recomendadas
-
-Guarda todas las capturas en `/screenshots/` y referencia aquí:
-
-- Dashboard general
-- Eventos Suricata
-- Búsqueda por IP
-- Consultas en VirusTotal, Shodan, AbuseIPDB, IPVoid
-- Estadísticas por honeypot, país, usuario, contraseña, etc.
-
----
