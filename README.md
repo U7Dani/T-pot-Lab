@@ -107,6 +107,7 @@ Incluye:
 - Usuarios/contraseñas más atacados
 
 ![image](https://github.com/user-attachments/assets/7a90d6f1-9252-4e54-9ac6-b7e410c99057)
+![image](https://github.com/user-attachments/assets/cedadc56-f3c7-4870-bb29-e01e447b4b83)
 ![image](https://github.com/user-attachments/assets/b9aae1ac-bb35-4ceb-a99d-641153031ca1)
 ![image](https://github.com/user-attachments/assets/a31870c0-5829-4238-b133-8f5bfb48c55f)
 ![Captura de pantalla 2025-05-21 182529](https://github.com/user-attachments/assets/d483097a-9935-4494-af68-487f4546e4ea)
